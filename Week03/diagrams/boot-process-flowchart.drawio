@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="VsaXDCkV2A42eYypzUB7">
+    <mxGraphModel dx="1030" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="47dRFGVkMCKXtS4bJ333-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1. Power On" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-2" edge="1" parent="1" source="47dRFGVkMCKXtS4bJ333-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="395" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2. BIOS / UEFI Initialization" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-4" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="520" as="sourcePoint" />
+            <mxPoint x="394.5" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3. Boot Device Detection" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="660" as="sourcePoint" />
+            <mxPoint x="394.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4. Boot Loader (Grub)" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="800" as="sourcePoint" />
+            <mxPoint x="394.5" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5. Linux Kernell" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="940" as="sourcePoint" />
+            <mxPoint x="394.5" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="6. init / systemd" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="1080" as="sourcePoint" />
+            <mxPoint x="394.5" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="6. init / systemd" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="1220" as="sourcePoint" />
+            <mxPoint x="394.5" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="7. Services Start" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-16" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="394.5" y="1360" as="sourcePoint" />
+            <mxPoint x="394.5" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="47dRFGVkMCKXtS4bJ333-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="8. Login Prompt" vertex="1">
+          <mxGeometry height="60" width="210" x="290" y="1440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
